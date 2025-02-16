@@ -1,0 +1,123 @@
+/*Importando a font Sora da Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+/*Paleta de Cores*/
+:root{
+    --cor-fundo: #1E1B18;
+    --cor-fundo-card: #484543;
+    --cor-letras: #1384B4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: var(--cor-fundo);
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.imgLogo{
+    width: 85px; 
+}
+
+h1{
+    color: var(--cor-letras);
+}
+
+select{
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--cor-letras);
+}
+
+select:hover{
+    background-color: #0c5372;
+}
+
+main{
+    width: 372px;
+    height: 300px;
+    background: var(--cor-fundo) url('../img/fundoEvoltfit.jpg') center  no-repeat;
+    background-size: cover;
+}
+
+p.frase{
+    color: var(--cor-letras);
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+button{
+    display: block;
+    margin: auto;
+    background-color: var(--cor-letras);
+    color: white;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    color: var(--cor-letras);
+    margin: 10px 0px;
+}
+
+section{
+    background-color: var(--cor-fundo);
+}
+
+.card{
+    background-color: var(--cor-fundo-card);
+    border-radius: 10px;
+    margin: auto;
+    width: 320px;
+    height: 250px;
+    padding: 10px;
+}
+
+h3.h3CArd{
+    border-bottom: 1px solid var(--cor-letras);
+    color: var(--cor-letras);
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+p.pCard{
+    color: white;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+footer{
+    background-color: var(--cor-fundo-card);
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    padding: 20px;
+}
+
+div.contato{
+    margin: 10px 0px;
+}
+
+h3{
+    color: var(--cor-letras);
+}
+
+p{
+    color: white;
+}
