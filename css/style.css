@@ -47,7 +47,7 @@ select:hover{
 }
 
 main{
-    width: 372px;
+    width: 100%;
     height: 300px;
     background: var(--cor-fundo) url('../img/fundoEvoltfit.jpg') center  no-repeat;
     background-size: cover;
