@@ -8,6 +8,7 @@
     --cor-letras: #1384B4;
 }
 
+
 @media (min-width:600px) {
     .container {
         background-color: var(--cor-fundo);
@@ -29,7 +30,7 @@
     }
 
     main {
-        width: 600px;
+        width: 100%;
         height: 350px;
     }
 
@@ -93,7 +94,7 @@
     }
 
     main {
-        width: 768px;
+        width: 100%;
         height: 466px;
     }
 
@@ -125,11 +126,11 @@
 
     footer{
         h3{
-            font-size: 40px;
+            font-size: 30px;
         }
         
         p{
-            font-size: 32px;
+            font-size: 25px;
             line-height: 38px;
         }
     }
@@ -152,11 +153,11 @@
 
     select {
         padding: 20px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     main {
-        width: 1024px;
+        width: 100%;
         height: 600px;
     }
 
@@ -170,7 +171,7 @@
     }
 
     .h2Card{
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
 
     .containerCards{
@@ -184,21 +185,21 @@
     }
 
     h3.h3CArd{
-        font-size: 50px;
+        font-size: 35px;
     }
 
     p.pCard{
-        font-size: 40px;
+        font-size: 30px;
         line-height: 42px;
     }
 
     footer{
         h3{
-            font-size: 50px;
+            font-size: 35px;
         }
         
         p{
-            font-size: 40px;
+            font-size: 25px;
             line-height: 50px;
         }
     }
@@ -206,7 +207,7 @@
 
 @media (min-width: 1440px){
     .container {
-        background-color: var(--cor-fundo);
+        background-color:red;
         width: 100vw;
         height: 100vh;
     }
